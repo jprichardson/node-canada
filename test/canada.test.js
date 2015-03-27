@@ -26,6 +26,11 @@ describe('canada', function () {
       var cities = canada.cities
       assert(cities)
       assert(cities.length > 100)
+
+      // verify each has both a city and province
+      cities.forEach(function (cityData) {
+        assert.equal(cityData.length, 2)
+      })
     })
   })
 })
