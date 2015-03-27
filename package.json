@@ -2,7 +2,7 @@
   "name": "canada",
   "version": "0.0.1",
   "description": "Cities and provinces from Canada.",
-  "main": "index.js",
+  "main": "lib/canada.js",
   "scripts": {
     "test": "standard && mocha"
   },
