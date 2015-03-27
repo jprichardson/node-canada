@@ -33,7 +33,40 @@ var provinceNames = Object.keys(provinces).map(function (abbr) {
 ```
 
 
+### cities
 
+**example:**
+
+```js
+var canada = require('canada')
+
+// get array of cities and their provinces
+var cities = canada.cities
+
+// city name and province
+var cityData = cities[0]
+var city = cityData[0]
+var province = cityData[1]
+
+// you could map it into a nicer data structure
+var cities = canada.cities.map(function (cityData) {
+  return {
+    city: cityData[0],
+    province: cityData[1]
+  }
+})
+
+// you could group cities by province
+var citiesInProvince = {}
+canada.cities.forEach(function (cityData) {
+  if (!citiesInProvince[cityData[1]]) {
+    citiesInProvince[cityData[1]] = []
+  }
+
+  var cities = citiesInProvince[cityData[1]]
+  cities.push(cityData[0])
+})
+```
 
 
 
