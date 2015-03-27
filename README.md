@@ -69,6 +69,11 @@ canada.cities.forEach(function (cityData) {
 ```
 
 
+Code Style
+-----------
+
+[![js-standard-style](https://raw.githubusercontent.com/feross/standard/master/badge.png)](https://github.com/feross/standard)
+
 
 License
 -------
