@@ -1,0 +1,26 @@
+{
+  "name": "canada",
+  "version": "0.0.1",
+  "description": "Cities and provinces from Canada.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jprichardson/node-canada"
+  },
+  "keywords": [
+    "canada",
+    "canadian",
+    "geography",
+    "provinces",
+    "ehhhhh"
+  ],
+  "author": "JP Richardson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jprichardson/node-canada/issues"
+  },
+  "homepage": "https://github.com/jprichardson/node-canada"
+}
