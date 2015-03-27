@@ -20,4 +20,12 @@ describe('canada', function () {
       assert(provinceNames.indexOf('BRITISH COLUMBIA'))
     })
   })
+
+  describe('+ cities', function () {
+    it('should return the array of cities as found in the JSON', function () {
+      var cities = canada.cities
+      assert(cities)
+      assert(cities.length > 100)
+    })
+  })
 })
