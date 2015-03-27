@@ -4,7 +4,7 @@
   "description": "Cities and provinces from Canada.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "standard && mocha"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/jprichardson/node-canada/issues"
   },
-  "homepage": "https://github.com/jprichardson/node-canada"
+  "homepage": "https://github.com/jprichardson/node-canada",
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "standard": "^3.3.0"
+  }
 }
