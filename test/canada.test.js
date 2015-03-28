@@ -43,4 +43,14 @@ describe('canada', function () {
       assert.equal(abbrs.length, 3)
     })
   })
+
+  describe('+ regions', function () {
+    it('should combine both provinces and territories', function () {
+      var regions = canada.regions
+      assert(regions)
+
+      var abbrs = Object.keys(regions)
+      assert.equal(abbrs.length, 13)
+    })
+  })
 })

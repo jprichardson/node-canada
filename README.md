@@ -68,6 +68,15 @@ canada.cities.forEach(function (cityData) {
 })
 ```
 
+### territories
+
+Returns the 3 Canadian territories.
+
+
+### regions
+
+This is both `provinces` and `territories`.
+
 
 Code Style
 -----------
