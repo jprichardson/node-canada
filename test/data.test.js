@@ -12,4 +12,10 @@ describe('data', function () {
       require('../data/provinces')
     })
   })
+
+  describe('territories', function () {
+    it('should parse', function () {
+      require('../data/territories')
+    })
+  })
 })

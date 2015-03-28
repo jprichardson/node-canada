@@ -33,4 +33,14 @@ describe('canada', function () {
       })
     })
   })
+
+  describe('+ territories', function () {
+    it('should return the array of territories found in the JSON', function () {
+      var territories = canada.territories
+      assert(territories)
+
+      var abbrs = Object.keys(territories)
+      assert.equal(abbrs.length, 3)
+    })
+  })
 })
